@@ -1,0 +1,23 @@
+database:
+  type: "sqlite"
+  # MySQL/MongoDB settings
+  host: "localhost"
+  port: 3306
+  database: "punishments"
+  username: "root"
+  password: ""
+  # MongoDB URI (if using MongoDB)
+  uri: "mongodb://localhost:27017"
+
+messages:
+  ban: "&cYou have been banned from the server. Reason: {reason}"
+  temp_ban: "&cYou have been temporarily banned from the server. Reason: {reason} Expires: {time}"
+  mute: "&cYou are currently muted. Reason: {reason}"
+  temp_mute: "&cYou are temporarily muted. Reason: {reason} Expires: {time}"
+  ip_ban: "&cYour IP address has been banned from the server. Reason: {reason}"
+  kick: "&cYou have been kicked from the server. Reason: {reason}"
+  unban: "&aYou have been unbanned from the server."
+  unmute: "&aYou are no longer muted."
+
+history:
+  title: "&9Punishment History for {player}"
