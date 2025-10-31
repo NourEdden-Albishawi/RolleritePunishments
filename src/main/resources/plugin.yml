@@ -1,0 +1,32 @@
+name: Punishments
+version: 1.0-SNAPSHOT
+main: dev.al3mid3x.punishments.Punishments
+api-version: '1.20'
+commands:
+  kick:
+    description: Kicks a player from the server.
+    usage: /kick <player> [reason]
+  ban:
+    description: Bans a player from the server.
+    usage: /ban <player> <reason> [-s]
+  tempban:
+    description: Temporarily bans a player from the server.
+    usage: /tempban <player> <duration> <reason> [-s]
+  mute:
+    description: Mutes a player in the server.
+    usage: /mute <player> <reason> [-s]
+  tempmute:
+    description: Temporarily mutes a player in the server.
+    usage: /tempmute <player> <duration> <reason> [-s]
+  ipban:
+    description: IP bans a player from the server.
+    usage: /ipban <player> <reason> [-s]
+  unban:
+    description: Unbans a player from the server.
+    usage: /unban <player>
+  unmute:
+    description: Unmutes a player in the server.
+    usage: /unmute <player>
+  history:
+    description: Shows the punishment history of a player.
+    usage: /history <player>
